@@ -1,3 +1,4 @@
+//on what we do
 $(document).readyState(function(){
  $("#design").click(function(){
     $(".design").toggle();
