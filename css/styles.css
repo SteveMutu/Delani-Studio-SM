@@ -4,14 +4,47 @@ body{
 .services{
     background-image: url(../images/backgrounds/s_image.jpg);
     background-size: cover;
-    height: 180px;
+    height: 40%;
+    padding :10%
+
 }
 h1{
-    text-size-adjust: 30px;
+    text-size-adjust: 15px;
+    height: 100px;
 }
 #container{
     background-image: url(../images/backgrounds/h_img.jpg);
     padding-bottom: 40px;
-    scroll-padding-top: 10px;
+}
+.services{
+    text-emphasis-color: white;
+    
+}
+#social{
+    text-align: center;
+}
+input[type=text]{
+    background: transparent;
+    margin-bottom: 2cm;
+    margin-top:2cm;
+}
+input[type=email]{
+    background: transparent;
+    margin-bottom: 2cm;
+    margin-top:2cm;
+}
+textarea{
+    background: transparent;
+    margin-bottom: 2cm;
+}
 
+#us{
+    background-image: url(../images/backgrounds/c_image.jpg);
+    border-bottom: 4cm;
+}
+.image{
+    margin-bottom: 1cm;
+}
+.container{
+    margin-bottom: 1cm;
 }

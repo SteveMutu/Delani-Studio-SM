@@ -22,10 +22,10 @@
         <div class ="jumbotron" id="about">
             <div class="col text-center">
          <h1>ABOUT US</h1>
-         <p>When you work with us,you are part of a team of commited collaborators.All aspects pf our software development process are intergrated,interractive and agile.
-         Our approaches unifies design,development and product management to create exceptional products.</p>
-         <p>We start each project by understanding your business goals,the user's needs and the product requirements
-         Then we help translate them into effective and elegant solution.</p>
+         <p>When you work with us,you are part of a team of commited collaborators.All aspects pf our software development process are intergrated,interractive and agile.</p>
+         <p>Our approaches unifies design,development and product management to create exceptional products.</p>
+         <p>We start each project by understanding your business goals,the user's needs and the product requirements</p>
+         <p>Then we help translate them into effective and elegant solution.</p>
             </div>
         </div> 
         
@@ -43,18 +43,36 @@
               <h1>WHAT WE DO</h1>
                 <div class="row">
                    <div class="col-md-4">
-                 <h5 class= "text-center">DESIGN</h5>
-                 <img src="/images/services_icons/design_icon.png">
+                 <h5>DESIGN</h5>
+                 <div id="hide design_icon">
+                 <img src="images/services_icons/design_icon.png" id="design">
+                 <p class="design">
+                    Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                    Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+                 </p>
+                </div>
                    </div>                 
 
                    <div class="col-md-4">             
                  <h5 class= "text-center">DEVELOPMENT</h5>
-                 <img src="images/services_icons/dev_icon.png">
+                 <div id ="hide dev_icon">
+                 <img src="images/services_icons/dev_icon.png" id="development">
+                 <p class="development">
+                    All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+                 </p>
                    </div>
+                 </div>  
 
                    <div class ="col-md-4">
                  <h5 class= "text-center">PRODUCT MANAGEMENT</h5>
-                 <img src="images/services_icons/product_icon.png">
+                 <div id="hide product_icon"></div>
+                 <img src="images/services_icons/product_icon.png" id="product">
+                 <p id="product">
+                
+                Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                This iterative process allows for changes as business requirements evolve.
+                 </p>
                    </div>
                 </div>
             </div>    
@@ -62,31 +80,110 @@
         <div class= "container">
              <div class= "PORTFOLIO">
              <h1>PORTFOLIO</h1>
-                <div class="row">
-                    <div class="col-sm-1">
-                        <img src="images/portfolio/work1.jpg">
-                        <img src="images/portfolio/work2.jpg">
-                        <img src="images/portfolio/work3.jpg">
-                        <img src="images/portfolio/work4.jpg">
+             
+                 <div class="row">
+                   
+                    <div class="col-md-3">
+                    <div class ="image">     
+                        <img src="images/portfolio/work1.jpg" width="100%">
+                    </div>     
+                    </div><br>
+                    <div class="col-md-3">
+                    <div class ="image">     
+                        <img src="images/portfolio/work2.jpg" width="100%">
+                    </div>    
+                    </div><br>
+                    <div class="col-md-3">
+                    <div class ="image">     
+                        <img src="images/portfolio/work3.jpg" width="100%">
+                    </div>   
+                    </div><br>
+                    <div class="col-md-3">
+                    <div class ="image">     
+                        <img src="images/portfolio/work4.jpg" width ="100%">
+                    </div> 
+                    </div><br>
                     </div>    
                 <div class="row">
-                    <div class ="col-sm-1">
-                        <img src="images/portfolio/work5.jpg">
-                        <img src="images/portfolio/work6.jpg">
-                        <img src="images/portfolio/work7.jpg">
-                        <img src="images/portfolio/work8.jpg">
+                    <div class ="col-md-3">
+                    <div class ="image">     
+                        <img src="images/portfolio/work5.jpg" width="100%">
+                    </div>    
+                    </div><br>
+                    <div class="col-md-3">  
+                    <div class ="image">       
+                        <img src="images/portfolio/work6.jpg" width="100%">
+                    </div>    
+                    </div><br>
+                    <div class="col-md-3">
+                    <div class ="image">        
+                        <img src="images/portfolio/work7.jpg" width="100%">
+                    </div>    
+                    </div> <br>   
+                    <div class="col-md-3">
+                    <div class ="image">     
+                        <img src="images/portfolio/work8.jpg" width="100%">
+                    </div>    
+                    </div> <br>   
                     </div>
                 </div>  
                </div>
         </div>    
-        
-        
         <h1>CONTACT US</h1>
-        <div class="row">
-            <div class="col">.col</div>
-            <div class="col">.col</div>
-            <div class="col">.col</div>
+        <div id="us">
+        <form text="center" id="form input">
+            <div class="row">
+              <div class="col-md-6">
+              <input type="text" name=""cols="30" id="nameDetail" placeholder="Enter Name" required>
+              </div><br>
+              <div class="col-md-6">
+              <input type="email" name="" cols="35"id="email" placeholder="Enter Email" required>
+              </div><br>
+            </div>  
+              <div class="col-md-12">
+              <textarea name="" id="" cols="84" rows="8" placeholder="Enter Message"></textarea><br>
+              </div>
+            </form>
         </div>
-        
+        <div text="center">
+        <div id="social">
+           <div class ="row" >
+             <div class="col-md-1">
+                <img src="/images/social_icons/behance.png">
+             </div>
+             <div class="col-md-1">
+                <img src="/images/social_icons/dribble.png">
+             </div>
+             <div class="col-md-1">
+                <img src="/images/social_icons/facebook.png">
+             </div>
+             <div class="col-md-1">
+                <img src="/images/social_icons/flickr.png">
+             </div>
+             <div class="col-md-1">
+                <img src="/images/social_icons/g_plus.png">
+             </div>
+             <div class="col-md-1">
+                <img src="/images/social_icons/pinterest.png">
+             </div>
+             <div class="col-md-1">
+                <img src="/images/social_icons/skype.png">
+             </div>
+             <div class="col-md-1">
+                <img src="/images/social_icons/stumble_upon.png">
+             </div>
+             <div class="col-md-1">
+                <img src="/images/social_icons/twitter.png">
+             </div>
+             <div class="col-md-1">
+                <img src="/images/social_icons/you_tube.png">
+               
+             </div>
+            </div> 
+        </div>
+        <p>Delani Studio</p>
+        <p>2019</p>
+        <script src ="js/script.js"></script>
+       </div>
     </body>
 </html>
