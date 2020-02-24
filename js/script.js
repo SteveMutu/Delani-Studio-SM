@@ -1,21 +1,35 @@
-//on what we do
-$(document).readyState(function(){
- $("#design").click(function(){
-    $(".design").toggle();
-    $("#hide design_icon").toogle();
-})
- $("#development").click(function(){
-     $(".development").toggle();
-     $("#hide dev_icon").toggle();
- })
- $("#product").click(function(){
-    $(".product").toggle();
-    $"(#product").toogle();
- })
- //on portfolio
- $("#hover").hover(funtion(){
-     $(this).animate({opacity:'1'});
- },
- function(){
-     $(this).animate({opacity:'1'});
- })
+// $(document).ready(function() {
+//     $("#cl1").click(function() {
+//         $("#design").toogle();
+//         $("#de-showing").toogle();
+//     });
+//     $("#cl2").click(function() {
+//         $("#development").toggle();
+//         $("#d-showing").toggle();
+//     });
+//     $("#cl3").click(function() {
+//         $("#product").toogle();
+//         $("#p-showing").toogle();
+//     });
+// });
+$(document).ready(function() {
+    $("#cl1").click(function() {
+        $("#design").toggle();
+        $("#de-showing").toggle();
+    });
+});
+$(document).ready(function(){   
+    $("#cl2").click(function() {
+        $("#development").toggle();
+        $("#d-showing").toggle();
+    });
+});
+$(document).ready(function(){
+    $("#cl3").click(function() {
+        $("#product").toggle();
+        $("#p-showing").toggle();
+    });
+    $(".image1").hover(function(){
+        $("#t1").toggle()
+    })
+});
