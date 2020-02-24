@@ -12,3 +12,10 @@ $(document).readyState(function(){
     $(".product").toggle();
     $"(#product").toogle();
  })
+ //on portfolio
+ $("#hover").hover(funtion(){
+     $(this).animate({opacity:'1'});
+ },
+ function(){
+     $(this).animate({opacity:'1'});
+ })
