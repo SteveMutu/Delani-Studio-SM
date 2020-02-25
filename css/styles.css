@@ -69,9 +69,6 @@ textarea{
 #img2{
     padding-right: 7cm;
 }
-#mouse:hover{
-    animation-play-state: running;
-}
 .text{
     position:absolute;
     display:none;
@@ -82,4 +79,7 @@ textarea{
 .photo{
     position:relative;
     opacity:0.5;
+}
+.row{
+    padding-bottom: 2cm;
 }
